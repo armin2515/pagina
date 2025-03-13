@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas y Certificaciones de Google - Centro de Desarrollo de Habilidades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Estilos personalizados basados en Google */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff; /* Fondo blanco */
+            color: #202124; /* Color de texto principal de Google */
+        }
+
+        .navbar {
+            background-color: #ffffff; /* Fondo blanco */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        .navbar-brand {
+            font-weight: 500; /* Peso de fuente similar al estilo de Google */
+            color: #202124; /* Color de texto principal */
+        }
+
+        .navbar-brand img {
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            color: #5F6368; /* Color de texto secundario de Google */
+            font-weight: 500;
+        }
+
+        .nav-link.active {
+            color: #4285F4; /* Azul de Google para enlace activo */
+        }
+
+        .nav-link:hover {
+            color: #1A73E8; /* Azul más oscuro para hover */
+        }
+
+        h1 {
+            color: #202124; /* Color de texto principal */
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .lead {
+            color: #5F6368; /* Color de texto secundario */
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        .card {
+            border: 1px solid rgba(0, 0, 0, 0.1); /* Borde sutil */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px); /* Efecto de elevación */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+        }
+
+        .card-title {
+            color: #202124; /* Color de texto principal */
+            font-weight: 500;
+        }
+
+        .card-text {
+            color: #5F6368; /* Color de texto secundario */
+        }
+
+        .btn-primary {
+            background-color: #4285F4; /* Azul de Google */
+            border: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 4px; /* Bordes redondeados */
+        }
+
+        .btn-primary:hover {
+            background-color: #1A73E8; /* Azul más oscuro para hover */
+        }
+
+        footer {
+            background-color: #f8f9fa; /* Fondo gris claro */
+            color: #5F6368; /* Color de texto secundario */
+            font-weight: 400;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            color: #4285F4; /* Azul de Google */
+            margin-bottom: 15px;
+        }
+
+        .hero-section {
+            background-color: #f1f3f4; /* Fondo gris claro */
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .hero-section .lead {
+            font-size: 1.5rem;
+        }
+
+        .course-section {
+            padding: 40px 0;
+        }
+
+        .course-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .icon-mentoring {
+            color: #34A853; /* Verde de Google */
+        }
+
+        .icon-track {
+            color: #FBBC05; /* Amarillo de Google */
+        }
+
+        .icon-certification {
+            color: #EA4335; /* Rojo de Google */
+        }
+
+        .certification-section {
+            padding: 40px 0;
+        }
+
+        .certification-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .certification-card {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .certification-card i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .certification-card h5 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .certification-card p {
+            font-size: 1rem;
+            color: #5F6368;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook" width="30" height="30" class="d-inline-block align-top">
+                CENTRO DESARROLLO DE HABILIDADES
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aceracde.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container">
+            <h1>Ofertas y Certificaciones de Google</h1>
+            <p class="lead">Impulsa tu carrera con nuestras ofertas y certificaciones en tecnología y desarrollo en la nube.</p>
+        </div>
+    </div>
+
+    <!-- Sección de Ofertas -->
+    <div class="course-section">
+        <div class="container">
+            <h2>Ofertas Disponibles</h2>
+            <div class="row">
+                <!-- Oferta 1 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher card-icon icon-mentoring"></i>
+                            <h5 class="card-title">Cloud Digital Leader - Second Mentoring</h5>
+                            <p class="card-text">Fecha: 2025-01-15</p>
+                            <p class="card-text"><strong>Tipo:</strong> Mentoring</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 2 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher card-icon icon-mentoring"></i>
+                            <h5 class="card-title">Professional Cloud Security Engineer - Second Mentoring & Clausura</h5>
+                            <p class="card-text">Fecha: 2025-01-16</p>
+                            <p class="card-text"><strong>Tipo:</strong> Mentoring</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 3 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-road card-icon icon-track"></i>
+                            <h5 class="card-title">Associate Cloud Engineer - Track</h5>
+                            <p class="card-text">Fechas: 2025-02-10 - 2025-02-14</p>
+                            <p class="card-text"><strong>Tipo:</strong> Track</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 4 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-road card-icon icon-track"></i>
+                            <h5 class="card-title">Associate Cloud Engineer - Track</h5>
+                            <p class="card-text">Fechas: 2025-02-17 - 2025-02-21</p>
+                            <p class="card-text"><strong>Tipo:</strong> Track</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 5 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher card-icon icon-mentoring"></i>
+                            <h5 class="card-title">Associate Cloud Engineer - First Mentoring</h5>
+                            <p class="card-text">Fecha: 2025-02-24</p>
+                            <p class="card-text"><strong>Tipo:</strong> Mentoring</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 6 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher card-icon icon-mentoring"></i>
+                            <h5 class="card-title">Associate Cloud Engineer - Second Mentoring</h5>
+                            <p class="card-text">Fecha: 2025-03-17</p>
+                            <p class="card-text"><strong>Tipo:</strong> Mentoring</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 7 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-road card-icon icon-track"></i>
+                            <h5 class="card-title">Professional Cloud Developer - Track</h5>
+                            <p class="card-text">Fechas: 2025-02-10 - 2025-02-14</p>
+                            <p class="card-text"><strong>Tipo:</strong> Track</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 8 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher card-icon icon-mentoring"></i>
+                            <h5 class="card-title">Professional Cloud Developer - First Mentoring</h5>
+                            <p class="card-text">Fecha: 2025-02-21</p>
+                            <p class="card-text"><strong>Tipo:</strong> Mentoring</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 9 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher card-icon icon-mentoring"></i>
+                            <h5 class="card-title">Professional Cloud Developer - Second Mentoring</h5>
+                            <p class="card-text">Fecha: 2025-03-18</p>
+                            <p class="card-text"><strong>Tipo:</strong> Mentoring</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 10 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-road card-icon icon-track"></i>
+                            <h5 class="card-title">Professional Cloud Network Engineer - Track</h5>
+                            <p class="card-text">Fechas: 2025-02-24 - 2025-02-28</p>
+                            <p class="card-text"><strong>Tipo:</strong> Track</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 11 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher card-icon icon-mentoring"></i>
+                            <h5 class="card-title">Professional Cloud Network Engineer - First Mentoring</h5>
+                            <p class="card-text">Fecha: 2025-03-03</p>
+                            <p class="card-text"><strong>Tipo:</strong> Mentoring</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 12 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher card-icon icon-mentoring"></i>
+                            <h5 class="card-title">Professional Cloud Network Engineer - Second Mentoring</h5>
+                            <p class="card-text">Fecha: 2025-03-19</p>
+                            <p class="card-text"><strong>Tipo:</strong> Mentoring</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Certificaciones -->
+    <div class="certification-section">
+        <div class="container">
+            <h2>Certificaciones de Google</h2>
+            <div class="row">
+                <!-- Certificaciones Google Cloud -->
+                <div class="col-md-4 mb-3">
+                    <div class="card certification-card">
+                        <i class="fas fa-cloud icon-certification"></i>
+                        <h5>Google Cloud Certifications</h5>
+                        <p>Associate Cloud Engineer</p>
+                        <p>Professional Cloud Architect</p>
+                        <p>Professional Data Engineer</p>
+                        <p>Professional Cloud Developer</p>
+                        <p>Professional Cloud Security Engineer</p>
+                        <p>Professional Cloud Network Engineer</p>
+                        <p>Professional Machine Learning Engineer</p>
+                        <p>Google Workspace Administrator</p>
+                    </div>
+                </div>
+                <!-- Certificaciones Google Career -->
+                <div class="col-md-4 mb-3">
+                    <div class="card certification-card">
+                        <i class="fas fa-certificate icon-certification"></i>
+                        <h5>Google Career Certificates</h5>
+                        <p>Google IT Support</p>
+                        <p>Google IT Automation with Python</p>
+                        <p>Google Data Analytics</p>
+                        <p>Google Project Management</p>
+                        <p>Google UX Design</p>
+                        <p>Google Cybersecurity</p>
+                        <p>Google Digital Marketing & E-commerce</p>
+                    </div>
+                </div>
+                <!-- Certificaciones Google Ads -->
+                <div class="col-md-4 mb-3">
+                    <div class="card certification-card">
+                        <i class="fas fa-ad icon-certification"></i>
+                        <h5>Google Ads Certifications</h5>
+                        <p>Google Ads Search</p>
+                        <p>Google Ads Display</p>
+                        <p>Google Ads Video</p>
+                        <p>Google Ads Apps</p>
+                        <p>Google Ads Measurement</p>
+                        <p>Google Ads Shopping</p>
+                    </div>
+                </div>
+                <!-- Certificaciones Google Analytics -->
+                <div class="col-md-4 mb-3">
+                    <div class="card certification-card">
+                        <i class="fas fa-chart-line icon-certification"></i>
+                        <h5>Google Analytics Certification</h5>
+                        <p>Google Analytics Individual Qualification (GAIQ)</p>
+                    </div>
+                </div>
+                <!-- Certificaciones Google Developers -->
+                <div class="col-md-4 mb-3">
+                    <div class="card certification-card">
+                        <i class="fas fa-code icon-certification"></i>
+                        <h5>Google Developers Certifications</h5>
+                        <p>Associate Android Developer</p>
+                        <p>Mobile Web Specialist (descontinuado)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Centro de Desarrollo de Habilidades</p>
+    </footer>
+</body>
+
+</html>

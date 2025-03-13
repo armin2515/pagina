@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta del Tecnológico de Monterrey - Centro de Desarrollo de Habilidades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Estilos personalizados basados en Google */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff; /* Fondo blanco */
+            color: #202124; /* Color de texto principal de Google */
+        }
+
+        .navbar {
+            background-color: #ffffff; /* Fondo blanco */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        .navbar-brand {
+            font-weight: 500; /* Peso de fuente similar al estilo de Google */
+            color: #202124; /* Color de texto principal */
+        }
+
+        .navbar-brand img {
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            color: #5F6368; /* Color de texto secundario de Google */
+            font-weight: 500;
+        }
+
+        .nav-link.active {
+            color: #4285F4; /* Azul de Google para enlace activo */
+        }
+
+        .nav-link:hover {
+            color: #1A73E8; /* Azul más oscuro para hover */
+        }
+
+        h1 {
+            color: #202124; /* Color de texto principal */
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .lead {
+            color: #5F6368; /* Color de texto secundario */
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        .card {
+            border: 1px solid rgba(0, 0, 0, 0.1); /* Borde sutil */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px); /* Efecto de elevación */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+        }
+
+        .card-title {
+            color: #202124; /* Color de texto principal */
+            font-weight: 500;
+        }
+
+        .card-text {
+            color: #5F6368; /* Color de texto secundario */
+        }
+
+        .btn-primary {
+            background-color: #4285F4; /* Azul de Google */
+            border: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 4px; /* Bordes redondeados */
+        }
+
+        .btn-primary:hover {
+            background-color: #1A73E8; /* Azul más oscuro para hover */
+        }
+
+        footer {
+            background-color: #f8f9fa; /* Fondo gris claro */
+            color: #5F6368; /* Color de texto secundario */
+            font-weight: 400;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            color: #4285F4; /* Azul de Google */
+            margin-bottom: 15px;
+        }
+
+        .hero-section {
+            background-color: #f1f3f4; /* Fondo gris claro */
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .hero-section .lead {
+            font-size: 1.5rem;
+        }
+
+        .course-section {
+            padding: 40px 0;
+        }
+
+        .course-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .icon-modalidad {
+            font-size: 3rem;
+            color: #34A853; /* Verde de Google */
+            margin-bottom: 15px;
+        }
+
+        .modalidad-section {
+            padding: 40px 0;
+        }
+
+        .modalidad-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .modalidad-card {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .modalidad-card i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .modalidad-card h5 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .modalidad-card p {
+            font-size: 1rem;
+            color: #5F6368;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook" width="30" height="30" class="d-inline-block align-top">
+                CENTRO DESARROLLO DE HABILIDADES
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca-de.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="oferta-tec.html">Oferta Tec</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container">
+            <h1>Oferta del Tecnológico de Monterrey</h1>
+            <p class="lead">Explora las modalidades de aprendizaje que ofrece el Tec de Monterrey para su educación continua y certificaciones.</p>
+        </div>
+    </div>
+
+    <!-- Sección de Modalidades -->
+    <div class="modalidad-section">
+        <div class="container">
+            <h2>Modalidades de Aprendizaje</h2>
+            <div class="row">
+                <!-- Modalidad 1: TLG -->
+                <div class="col-md-6 mb-3">
+                    <div class="card modalidad-card">
+                        <i class="fas fa-laptop icon-modalidad"></i>
+                        <h5>TLG (Tec Learning Gateway)</h5>
+                        <p><strong>Modalidad:</strong> Asincrónica (On-demand)</p>
+                        <p><strong>Características:</strong> Videos pregrabados, material de lectura, ejercicios prácticos.</p>
+                        <p><strong>Ideal para:</strong> Personas con horarios flexibles que prefieren aprender a su propio ritmo.</p>
+                    </div>
+                </div>
+                <!-- Modalidad 2: CVA -->
+                <div class="col-md-6 mb-3">
+                    <div class="card modalidad-card">
+                        <i class="fas fa-chalkboard-teacher icon-modalidad"></i>
+                        <h5>CVA (Campus Virtual Activo)</h5>
+                        <p><strong>Modalidad:</strong> Híbrida (Asincrónica + Sincrónica)</p>
+                        <p><strong>Características:</strong> Actividades interactivas, acceso a foros, clases en vivo programadas.</p>
+                        <p><strong>Ideal para:</strong> Quienes buscan estructura, pero con flexibilidad de horarios.</p>
+                    </div>
+                </div>
+                <!-- Modalidad 3: Aula Virtual -->
+                <div class="col-md-6 mb-3">
+                    <div class="card modalidad-card">
+                        <i class="fas fa-users icon-modalidad"></i>
+                        <h5>Aula Virtual</h5>
+                        <p><strong>Modalidad:</strong> 100% Sincrónica (En vivo)</p>
+                        <p><strong>Características:</strong> Clases en tiempo real, interacción directa con profesores y compañeros.</p>
+                        <p><strong>Ideal para:</strong> Profesionales que prefieren el aprendizaje en tiempo real con guía personalizada.</p>
+                    </div>
+                </div>
+                <!-- Modalidad 4: Live -->
+                <div class="col-md-6 mb-3">
+                    <div class="card modalidad-card">
+                        <i class="fas fa-video icon-modalidad"></i>
+                        <h5>Live</h5>
+                        <p><strong>Modalidad:</strong> 100% Sincrónica (En vivo y en tiempo real)</p>
+                        <p><strong>Características:</strong> Clases en streaming con instructores en vivo, dinámicas interactivas.</p>
+                        <p><strong>Ideal para:</strong> Quienes buscan interacción constante y aprendizaje basado en experiencias.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Centro de Desarrollo de Habilidades</p>
+    </footer>
+</body>
+
+</html>

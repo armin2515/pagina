@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Gratuitos - Centro de Desarrollo de Habilidades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Estilos personalizados basados en Google */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff; /* Fondo blanco */
+            color: #202124; /* Color de texto principal de Google */
+        }
+
+        .navbar {
+            background-color: #ffffff; /* Fondo blanco */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        .navbar-brand {
+            font-weight: 500; /* Peso de fuente similar al estilo de Google */
+            color: #202124; /* Color de texto principal */
+        }
+
+        .navbar-brand img {
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            color: #5F6368; /* Color de texto secundario de Google */
+            font-weight: 500;
+        }
+
+        .nav-link.active {
+            color: #4285F4; /* Azul de Google para enlace activo */
+        }
+
+        .nav-link:hover {
+            color: #1A73E8; /* Azul más oscuro para hover */
+        }
+
+        h1 {
+            color: #202124; /* Color de texto principal */
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .lead {
+            color: #5F6368; /* Color de texto secundario */
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        .card {
+            border: 1px solid rgba(0, 0, 0, 0.1); /* Borde sutil */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px); /* Efecto de elevación */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+        }
+
+        .card-title {
+            color: #202124; /* Color de texto principal */
+            font-weight: 500;
+        }
+
+        .card-text {
+            color: #5F6368; /* Color de texto secundario */
+        }
+
+        .btn-primary {
+            background-color: #4285F4; /* Azul de Google */
+            border: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 4px; /* Bordes redondeados */
+        }
+
+        .btn-primary:hover {
+            background-color: #1A73E8; /* Azul más oscuro para hover */
+        }
+
+        footer {
+            background-color: #f8f9fa; /* Fondo gris claro */
+            color: #5F6368; /* Color de texto secundario */
+            font-weight: 400;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            color: #4285F4; /* Azul de Google */
+            margin-bottom: 15px;
+        }
+
+        .hero-section {
+            background-color: #f1f3f4; /* Fondo gris claro */
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .hero-section .lead {
+            font-size: 1.5rem;
+        }
+
+        .course-section {
+            padding: 40px 0;
+        }
+
+        .course-section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook" width="30" height="30" class="d-inline-block align-top">
+                CENTRO DESARROLLO DE HABILIDADES
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aceracde.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container">
+            <h1>Oferta externa gratuita - Centro de Desarrollo de Habilidades</h1>
+            <p class="lead">Tecnifica tus conocimientos con nuestros cursos gratuitos.</p>
+        </div>
+    </div>
+
+    <div class="course-section">
+        <div class="container">
+            <h2>Nuestros Cursos</h2>
+            <div class="row">
+                <!-- Curso 1 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-code card-icon"></i>
+                            <h5 class="card-title">JavaScript Interactivo</h5>
+                            <p class="card-text">Aprende JavaScript de manera interactiva.</p>
+                            <a href="https://lnkd.in/dD9-7CHK" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 2 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-laptop-code card-icon"></i>
+                            <h5 class="card-title">Introducción al desarrollo web</h5>
+                            <p class="card-text">Inicia tu camino en el desarrollo web.</p>
+                            <a href="https://lnkd.in/dwmkt9Gb" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 3 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fab fa-css3-alt card-icon"></i>
+                            <h5 class="card-title">CSS Avanzado</h5>
+                            <p class="card-text">Profundiza tus conocimientos de CSS.</p>
+                            <a href="https://lnkd.in/dG6X-kHC" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 4 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-language card-icon"></i>
+                            <h5 class="card-title">Inglés para desarrolladores y profesionales de IT</h5>
+                            <p class="card-text">Mejora tu inglés técnico.</p>
+                            <a href="https://lnkd.in/d6FzXtxs" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 5 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-paint-brush card-icon"></i>
+                            <h5 class="card-title">Arte en el código</h5>
+                            <p class="card-text">Explora la creatividad en el código.</p>
+                            <a href="https://lnkd.in/d-8Cvf7P" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 6 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line card-icon"></i>
+                            <h5 class="card-title">Data Analysis</h5>
+                            <p class="card-text">Aprende análisis de datos.</p>
+                            <a href="https://lnkd.in/dXAhVCzQ" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 7 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-pencil-ruler card-icon"></i>
+                            <h5 class="card-title">Taller de Figma</h5>
+                            <p class="card-text">Domina el diseño con Figma.</p>
+                            <a href="https://lnkd.in/dnUQ3UMa" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 8 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fab fa-python card-icon"></i>
+                            <h5 class="card-title">Python Interactivo desde 0</h5>
+                            <p class="card-text">Aprende Python desde cero de forma interactiva.</p>
+                            <a href="https://lnkd.in/dXjeU_8x" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 9 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-database card-icon"></i>
+                            <h5 class="card-title">SQL Interactivo</h5>
+                            <p class="card-text">Aprende SQL de manera interactiva.</p>
+                            <a href="https://lnkd.in/dwKZSErC" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 10 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fab fa-js-square card-icon"></i>
+                            <h5 class="card-title">JavaScript desde 0</h5>
+                            <p class="card-text">Aprende JavaScript desde cero.</p>
+                            <a href="https://lnkd.in/dj4drJPM" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 11 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-user-circle card-icon"></i>
+                            <h5 class="card-title">UX Content Design</h5>
+                            <p class="card-text">Aprende diseño de contenido UX.</p>
+                            <a href="https://lnkd.in/dCeZfTha" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Curso 12 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-shield-alt card-icon"></i>
+                            <h5 class="card-title">Ciberseguridad en la era digital</h5>
+                            <p class="card-text">Aprende sobre ciberseguridad.</p>
+                            <a href="https://lnkd.in/dDQhwr8S" class="btn btn-primary" target="_blank">Ir al curso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Centro de Desarrollo de Habilidades</p>
+    </footer>
+</body>
+
+</html>
